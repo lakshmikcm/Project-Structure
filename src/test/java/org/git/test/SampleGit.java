@@ -8,6 +8,11 @@ public class SampleGit {
 			
 			System.out.println("Hi welcome to GIT");
 		}
+		
+		@Test
+		private void test1() {
+			System.out.println("Hi welcome to 2nd line");
+		}
 
 	}
 
