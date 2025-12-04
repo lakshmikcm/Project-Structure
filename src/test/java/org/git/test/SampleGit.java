@@ -1,5 +1,13 @@
 package org.git.test;
 
-public class SampleGit {
+import org.junit.Test;
 
-}
+public class SampleGit {
+		@Test
+		private void test() {
+			
+			System.out.println("Hi welcome to GIT");
+		}
+
+	}
+
