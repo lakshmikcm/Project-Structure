@@ -23,7 +23,7 @@ public class Sample extends Registration{
 		Registration r=new Registration();
 		
 		click(r.getCreateAccount());
-		sendKeys(r.getFirstname(),"Leela");
+		sendKeys(r.getFirstname(),"KAVYA");
 		sendKeys(r.getLastname(),"Kalai");
 		selectByIndex(r.getDay(),4);
 		selectByVisibleText(r.getMonth(),"Nov");
