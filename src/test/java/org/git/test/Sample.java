@@ -29,7 +29,7 @@ public class Sample extends Registration{
 		selectByVisibleText(r.getMonth(),"Nov");
 		selectByVisibleText(r.getYear(),"1986");
 		click(r.getGender());
-		sendKeys(r.getMobnum(),"8908765489");
+		sendKeys(r.getMobnum(),"89087");
 		sendKeys(r.getNewpass(),"345678");
 		click(r.getSubmit());
 		
