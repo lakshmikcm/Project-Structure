@@ -23,9 +23,9 @@ public class Sample extends Registration{
 		Registration r=new Registration();
 		
 		click(r.getCreateAccount());
-		sendKeys(r.getFirstname(),"Leela");
+		sendKeys(r.getFirstname(),"KAVYA");
 		sendKeys(r.getLastname(),"Kalai");
-		selectByIndex(r.getDay(),4);
+		selectByIndex(r.getDay(),6);
 		selectByVisibleText(r.getMonth(),"Nov");
 		selectByVisibleText(r.getYear(),"1986");
 		click(r.getGender());
